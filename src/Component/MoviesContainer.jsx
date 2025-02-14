@@ -5,6 +5,7 @@ import { FaSearch } from "react-icons/fa";
 
 const MoviesContainer = ({istrue,heading}) => {
 
+ 
 
   const [searchh,setSearch] = useState("")
 
@@ -146,4 +147,4 @@ const MoviesContainer = ({istrue,heading}) => {
   )
 }
 
-export default MoviesContainer
+export default React.memo(MoviesContainer)

@@ -1,3 +1,4 @@
+import React from "react"
 import MoviesContainer from './MoviesContainer'
 import Newss from './Newss'
 import imageSp from "../assets/spider-man.jpg"
@@ -22,4 +23,4 @@ const News = () => {
 </div>)
 }
 
-export default  News
+export default  React.memo(News)

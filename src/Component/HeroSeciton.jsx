@@ -78,7 +78,7 @@ useEffect(()=>{
     <>
    <section className='hero_section'>
        <div className='hero_inner' >
-        <img src={`https://image.tmdb.org/t/p/original/${images[indexx]?.poster_path}`} style={{zIndex:"-1"}}/>
+        <img src={`https://image.tmdb.org/t/p/original/${images[indexx]?.poster_path}`} style={{objectFit:"cover",zIndex:"-1",}}/>
 
         <div className='hero_inner_1'>
             <div className='hero_inner_1_1'>
@@ -108,13 +108,9 @@ useEffect(()=>{
         </div>
 
 
-        <div className='gradint_bottom'>
+        <div className='gradint_bottom'> </div>
 
-        </div>
-
-        <div className='gradint_top'>
-
-        </div>
+        <div className='gradint_top'> </div>
 
 
        </div>

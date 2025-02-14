@@ -3,6 +3,7 @@ import "./Scss/App.scss"
 import Header from './Component/Header'
 import {Routes,Route} from "react-router-dom"
 import HeroSeciton from './Component/HeroSeciton'
+import { useSelector } from 'react-redux'
 
 
 
@@ -10,6 +11,10 @@ const App = () => {
 
 
   const [movies ,setMOvies]= useState([])
+
+  // const {token,isLoading} = useSelector((state)=>state.userData);
+
+  // console.log(token,isLoading)
 
   // const fetchMovies = async()=>{
 
